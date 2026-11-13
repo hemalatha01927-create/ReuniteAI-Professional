@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+instance/
+*.py[cod]
+*.sqlite3
+.DS_Store
+# Private and generated files
+.env*
+!.env.example
+.venv/
+instance/
+__pycache__/
+.pytest_cache/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+**/uploads/

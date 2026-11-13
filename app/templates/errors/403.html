@@ -1,0 +1,1 @@
+{% extends "layout.html" %}{% block content %}<section class="error-page"><span>403</span><h1>Access restricted</h1><p>Your account does not have permission to view this area.</p><a class="btn btn-primary" href="{{ url_for('main.dashboard') if current_user.is_authenticated else url_for('main.index') }}">Return to workspace</a></section>{% endblock %}
